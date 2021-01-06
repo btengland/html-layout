@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 10px;
+}
+
+.firstbox {
+    border: 5px solid black;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.smallrectangle {
+    background-color: mediumslateblue;
+    display: inline-block;
+    height: 150px;
+    width: 50px;
+}
+
+.bigrectangle {
+    background-color: green;
+    display: inline-block;
+    height: 190px;
+    width: 500px;
+    margin: 0 50px;
+}
+
+.circle {
+    background-color: lightskyblue;
+    display: inline-block;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+}
+
+.secondbox {
+    box-sizing: border-box;
+    border: 5px dotted black;
+    width: 100%;
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.shadowbox {
+    background-color: rgb(241, 210, 168);
+    display: inline-block;
+    height: 150px;
+    width: 100%;
+    box-shadow: 10px 10px 10px 0px black;
+}
+
+.wordbox {
+    box-sizing: border-box;
+    border: .25px solid gray;
+    box-shadow: 1px 1px 1px 0px gray;
+    width: 50%;
+    padding: 100px;
+    margin: 20px auto;
+}
+
+.wordbox h1 {
+    color: navy;
+    text-align: center;
+    letter-spacing: 10px;
+    width: 100%;
+}
